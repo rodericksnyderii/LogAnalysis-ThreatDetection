@@ -8,7 +8,7 @@ This project demonstrates basic log analysis and threat detection techniques usi
 ## 📌 Objectives
 
 - Collect system and application logs from a Linux virtual machine.
-- Set up a log analysis tool (Splunk or ELK Stack).
+- Set up a log analysis tool (ELK Stack).
 - Parse and analyze logs to detect suspicious or malicious behavior.
 - Document identified threats and explain the logic behind detection rules.
 - (Optional) Automate basic detection tasks using Python.
@@ -29,3 +29,11 @@ This project demonstrates basic log analysis and threat detection techniques usi
 ---
 
 ## 🏗️ Project Structure
+
+LogAnalysis-ThreatDetection/
+├── README.md                   # Project overview
+├── log-collection.md           # How logs are collected (what logs, where from)
+├── analysis-tool-setup.md      # How you installed and configured ELK
+├── threat-detection.md         # Detected suspicious behavior and how you found it
+├── python-automation.md        # (Optional) Python scripts for alerting or parsing
+└── screenshots/                # Images of dashboards, log snippets, detections
